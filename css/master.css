@@ -57,10 +57,12 @@ ul.barra li a:hover {
 .box-1 {
   border-radius: 8px;
   background: linear-gradient(0deg, rgba(240,240,241,1) 50%, rgba(36,224,219,0.7539390756302521) 100%);
+  margin-bottom: 40px;
 }
 .box-2 {
   border-radius: 8px;
   background: linear-gradient(rgba(255, 138, 0, 0.2), #fff);
+  margin-bottom: 40px;
 }
 .button {
   border-radius: 5px;
@@ -74,4 +76,18 @@ ul.barra li a:hover {
 }
 .button:hover {
   box-shadow: 2px 2px 0 black;
+}
+/* Estructura tipo blog */
+@media screen and (min-width: 980px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col-25 {
+    flex: 2.5;
+  }
+  .col-75 {
+    flex: 7.5;
+  }
 }
