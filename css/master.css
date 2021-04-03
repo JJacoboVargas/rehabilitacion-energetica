@@ -19,14 +19,28 @@ aside {
   padding-left: 20px;
   padding-right: 20px;
 }
+/* Estilos de Table */
 table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
   border: 3px solid #c6ff00;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 20px;
 }
+
+#plan-accion tr:hover {
+  background-color: #ddd;
+}
+
+#plan-accion th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
 h1 {
   text-align: center;
   margin-left: 5px;
